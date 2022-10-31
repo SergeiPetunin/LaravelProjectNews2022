@@ -1,6 +1,5 @@
-window.addEventListener('load', () => {
-    //todos = JSON.parse(localStorage.getItem('todos')) || [];
 
+window.addEventListener('load', () => {
     const form = document.querySelector("#new-task-form"); //получить форму
     const input = document.querySelector("#new-task-input");
     const list_el = document.querySelector("#tasks");
@@ -10,7 +9,7 @@ window.addEventListener('load', () => {
 
         const task = input.value;
 
-        const taksNum = 1; // для lavel for id
+        //const taksNum = 1; // для lavel for id
 
 
         if (!task) {
@@ -44,7 +43,7 @@ window.addEventListener('load', () => {
         const task_done_el = document.createElement("label");
         task_done_el.classList.add("checkbox");
         task_done_el.classList.add("style-d");
-        task_done_el.htmlFor = taksNum;
+        //task_done_el.htmlFor = taksNum;
 
         
         
@@ -53,7 +52,7 @@ window.addEventListener('load', () => {
         const task_doneinput_el = document.createElement("input");
         task_doneinput_el.classList.add("itsdone");
         task_doneinput_el.type = "checkbox";
-        task_doneinput_el.id = taksNum;
+        //task_doneinput_el.id = taksNum;
          
         task_done_el.appendChild(task_doneinput_el);
 

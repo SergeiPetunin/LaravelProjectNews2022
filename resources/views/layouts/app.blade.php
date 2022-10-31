@@ -20,7 +20,9 @@
 	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700,300italic,400italic,600italic">
   
 	<!-- Custom style -->
-	<link rel="stylesheet" href='{{ asset("dist/css/custom_style.css") }}'>	
+	<link rel="stylesheet" href='{{ asset("dist/css/custom_style.css") }}'>
+  <link rel="stylesheet" href='{{ asset("dist/css/clock.css") }}'>	
+  <link rel="stylesheet" href='{{ asset("dist/css/tasklist1.css") }}'>
 </head>
 <body class="hold-transition skin-blue sidebar-mini">
 <div class="wrapper">

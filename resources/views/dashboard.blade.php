@@ -4,9 +4,7 @@
 
     <div class="box-header with-border">
         <h3 class="box-title"><storng> Dashboar Start page</strong><h3>
-            
     </div>
-
     <div class="box-body" style="min-height:450px">
         <div class="my-container">
             
@@ -26,7 +24,6 @@
 
             <div id="tasks">
                 <h3>Tasks</h3>
-                
                 <!-- <div class="my-content">
                     <div class="my-tasks">
                         <input 
@@ -46,16 +43,15 @@
                         <button class="delete">Delete</button>
                     </div>
                 </div> -->
-                
-
-            </div>
-        </div>
-
-        <div class="container">
-            
-
         </div>
     </div>
+
+    <div class="container">
+
+    </div>
+    
+    <hr>
+    
 @endsection
 
 
